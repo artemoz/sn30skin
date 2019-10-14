@@ -11,23 +11,24 @@
     display: none;
 }
 .custom .triggers{ 
-    width: 526px;
-    height: 65px;
+    width: 567px;
+    height: 91px;
     position: absolute;
-    left: 99px;
-    top: 10px;
+    left: 77px;
 }
 .custom .trigger{
-    width:86px;
-    height:65px;
-    background: url(pink.png);
+    height:91px;
+    background: url(triggers.png);
     opacity: 0;
 }
 
-.custom .trigger.left{ 
+.custom .trigger.left{
+    width: 128px; 
     float: left;
 }
 .custom .trigger.right{
+    width: 125px;
+    background-position: -128px 0;
     float: right;
 }
 
