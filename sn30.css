@@ -11,10 +11,11 @@
     display: none;
 }
 .custom .triggers{ 
-    width: 567px;
+    width: 566px;
     height: 91px;
     position: absolute;
-    left: 77px;
+    left: 80px;
+    top: 24px;
 }
 .custom .trigger{
     height:91px;
@@ -27,23 +28,23 @@
     float: left;
 }
 .custom .trigger.right{
-    width: 125px;
-    background-position: -128px 0;
+    width: 123px;
+    background-position: -150px 0;
     float: right;
 }
 
 .custom .bumper{
-    width: 40px;
+    width: 160px;
     height: 40px;
-    background: url(pressed.png);
+    background: url(bumpers.png);
     display: none;
 }
 .custom .bumpers{
     position: absolute;
-    width: 464px;
+    width: 579px;
     height: 40px;
-    left: 130px;
-    top: 114px;
+    left: 72px;
+    top: 118px;
 }
 .custom .bumper.pressed{
     display: block;
@@ -52,6 +53,8 @@
     float: left;
 }
 .custom .bumper.right{
+    background-position: -160px 0;
+    width: 157px;
     float: right;
 }
 
