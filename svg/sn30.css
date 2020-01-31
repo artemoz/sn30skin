@@ -1,0 +1,208 @@
+.controller.custom{
+    background: url(face.svg); 
+    height: 655px;
+    width: 755px;
+}
+.custom.disconnected {
+    background: url(face.svg);
+}
+
+.custom.disconnected div {
+    display: none;
+}
+.custom .triggers{ 
+    width: 593px;
+    height: 95px;
+    position: absolute;
+    left: 82px;
+    top: 0;
+}
+.custom .trigger{
+    height:95px;
+    background: url(triggers.svg);
+    opacity: 0;
+}
+
+.custom .trigger.left{
+    width: 128px; 
+    float: left;
+}
+.custom .trigger.right{
+    width: 128px;
+    background-position: -200px 0;
+    float: right;
+}
+
+.custom .bumper{
+    width: 168px;
+    height: 40px;
+    background: url(bumpers.svg);
+    display: none;
+}
+.custom .bumpers{
+    position: absolute;
+    width: 607px;
+    height: 40px;
+    left: 75px;
+    top: 97px;
+}
+.custom .bumper.pressed{
+    display: block;
+}
+.custom .bumper.left{
+    float: left;
+}
+.custom .bumper.right{
+    background-position: -200px 0;
+    width: 168px;
+    float: right;
+}
+
+.custom .quadrant{
+    position: absolute;
+    background: url(a.svg);
+    height: 17px;
+    width: 111px;
+    top: 303px;
+    left: 240px;
+    display: none;
+}
+
+.custom .p0{
+    background-position: 0 -6px;
+}
+.custom .p1{
+    background-position: 0 -28px;
+}
+.custom .p2{
+    background-position: 0 -49px;
+}
+.custom .p3{
+    background-position: 0 -70px;
+}
+
+.custom .arrows{
+    position: absolute;
+    width: 134px;
+    height: 23px;
+    top: 260px;
+    left: 294px;
+}
+
+.custom .back, .custom .start{
+    background: url(select.svg);
+    width: 61px;
+    height: 22px;
+    display: none;
+}
+.custom .back.pressed, .custom .start.pressed{
+    display: block;
+}
+.custom .back{
+    float: left;
+}
+.custom .start{
+    float: right;
+}
+.custom .abxy{
+    position: absolute;
+    width: 195px;
+    height: 162px;
+    top: 193px;
+    left: 494px;
+}
+.custom .button{
+    position: absolute;
+    width:57px;
+    height:57px;
+    background: url(a.svg);
+    display: none;
+}
+.custom .button.pressed{
+    display: block;
+}
+.custom .a{
+    top: 107px;
+    left: 69px;
+}
+.custom .b{
+    top: 54px;
+    right: 0px;
+}
+.custom .x{
+    top: 54px;
+}
+.custom .y{
+    left: 69px;
+}
+.custom .sticks{
+    position: absolute;
+    width: 315px;
+    height: 96px;
+    top: 341px;
+    left: 218px;
+}
+.custom .stick{
+    position: absolute;
+    background: url(stick.svg);
+    height:86px;
+    width: 86px;
+}
+.custom .stick.pressed{
+    background: url(stick_pressed.svg);
+}
+.custom .stick.left{
+    top: 5px;
+    left: 4px;
+}
+.custom .stick.right{
+    top: 5px;
+    left: calc(100% - 89px);
+}
+.custom .dpad{
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    top: 210px;
+    left: 98px;
+}
+
+
+.custom .face{
+    background: url(dpad.svg);
+    position: absolute;
+    display: none;
+    /* width: 125px;
+    height: 40px; */
+}
+.custom .face.up{
+    width: 48px;
+    height: 67px;
+    left: calc(50% - 24px);
+    top: 0px;
+    
+}
+.custom .face.down{
+    width: 48px;
+    height: 67px;
+    left: calc(50% - 24px);
+    bottom: 0px;
+    background-position: -50px 0;
+}
+.custom .face.left{
+    width: 67px;
+    height: 48px;
+    top: calc(50% - 24px);
+    left: 0;
+    background-position: 0 -119px;
+}
+.custom .face.right{
+    width: 67px;
+    height: 48px;
+    top: calc(50% - 24px);
+    right: 0px;
+    background-position: 0 -69px;
+}
+.custom .face.pressed{
+    display: block;
+}
